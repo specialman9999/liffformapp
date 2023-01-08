@@ -1,0 +1,213 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUilyアンケート</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+</head>
+<body>
+
+    <form class="w-75 mx-auto">
+        <p class="mt-3">あなたが在籍する学校を選択してください</p>
+        <div>
+            <select class="form-control w-100 mt-1" name="school" placeholder="" required>
+                <option value="" selected hidden>選択してください</option>
+                <option>芦品まなび学園高等学校</option>
+                <option>盈進高等学校</option>
+                <option>英数学館高等学校</option>
+                <option>神辺旭高等学校</option>
+                <option>神辺高等学校</option>
+                <option>近畿大学附属広島高等学校福山校</option>
+                <option>銀河学院高等学校</option>
+                <option>沼南高等学校</option>
+                <option>大門高等学校</option>
+                <option>戸手高等学校</option>
+                <option>広島大学附属福山高等学校</option>
+                <option>福山暁の星女子高等学校</option>
+                <option>福山葦陽高等学校</option>
+                <option>福山工業高等学校</option>
+                <option>福山商業高等学校</option>
+                <option>福山市立福山高等学校</option>
+                <option>福山誠之館高等学校</option>
+                <option>福山明王台高等学校</option>
+                <option>松永高等学校</option>
+                <option>東林館</option>
+                <option>東高等学校</option>
+                <option>福山特別支援学校</option>
+                <option>福山北特別支援学校</option>
+                <option>沼隈特別支援学校</option>
+                <option>その他</option>
+            </select>
+        </div>
+        <p class="mt-3">あなたの学年を教えてください</p>
+        <div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="year" id="year" value="1年生" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    1年生
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="year" id="year" value="2年生">
+                  <label class="form-check-label" for="gridRadios2">
+                    2年生
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="year" id="year" value="3年生">
+                  <label class="form-check-label" for="gridRadios3">
+                    3年生
+                  </label>
+                </div>
+              </div>
+        </div>
+        <p class="mt-3">今日このSHIPSを選んだ理由を教えてください（複数選択）</p>
+        <div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    アクセスが良かった
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    空いていた
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    いつも利用しているから
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    居心地が良い
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    設備が整っている
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    安心して使える
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="reason">
+                <label class="form-check-label">
+                    その他(内容は意気込みの欄に記載してください)
+                </label>
+              </div>
+        </div>
+        <p class="mt-3">このSHIPSを利用するのは何回目くらいですか？</p>
+        <div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="times" id="times" value="今日が初めて" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    今日が初めて
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="times" id="times" value="2回目">
+                  <label class="form-check-label" for="gridRadios2">
+                    2回目
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="times" id="times" value="5回以内">
+                  <label class="form-check-label" for="gridRadios3">
+                    5回以内
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="times" id="times" value="6回〜10回">
+                    <label class="form-check-label" for="gridRadios3">
+                        6回〜10回
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="times" id="times" value="11回〜20回">
+                    <label class="form-check-label" for="gridRadios3">
+                        11回〜20回
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="times" id="times" value="20回以上">
+                    <label class="form-check-label" for="gridRadios3">
+                        20回以上
+                    </label>
+                  </div>
+              </div>
+
+        </div>
+        <p class="mt-3">今日の勉強の意気込みを記載してください！</p>
+        <div>
+            <input class="form-control w-100 mt-1" name="enthusiasm">
+        </div>
+        <input type="submit" class="mt-4 btn btn-primary" value="送信">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            const liffId = "1657799321-QM3kEbEE";
+            initializeLiff(liffId);
+        })
+
+        function initializeLiff(liffId) {
+            liff.init({
+                liffId: liffId
+            }).then(() => {
+                initializeApp();
+            }).catch((err) => {
+                console.log('LIFF Initialization failed ', err);
+            });
+        }
+
+        function sendText(text) {
+            liff.sendMessages([{
+                'type': 'text',
+                'text': text
+            }]).then(function () {
+                liff.closeWindow();
+            }).catch(function (error) {
+                window.alert('Failed to send message ' + error);
+            });
+        }
+
+        const params = (new URL(document.location)).searchParams;
+        const key = params.get('key');
+
+        $(function () {
+            $('form').submit(function () {
+                const school    = $('input[name="school"]').val();
+                const year = $('input[name="year"]').val();
+                const reason  = $('input[name="reason"]').val();
+                const times  = $('input[name="times"]').val();
+                const enthusiasm = $('input[name="enthusiasm"]').val();
+                const msg = `${school}\n${year}\n${reason}\n${times}\n${enthusiasm}`;
+                sendText(msg);
+                return false;
+            });
+        });
+
+    </script>
+
+</body>
+</html>
